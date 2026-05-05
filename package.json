@@ -1,0 +1,28 @@
+{
+  "name": "shaab-ji-message-sender-bot",
+  "version": "1.0.0",
+  "description": "Persistent Message Sender Bot with multiple Facebook sessions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "bot",
+    "facebook",
+    "message-sender",
+    "websocket",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0",
+    "uuid": "^9.0.1",
+    "fca-mafiya": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
